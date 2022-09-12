@@ -14,6 +14,10 @@ class Product
         $this->setDescription($description);
     }
 
+    public function getDiscount(){
+        $discount = $this->price * 0.2;
+        return $discount;
+    }
 
     //get name
     public function getName()

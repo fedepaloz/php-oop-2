@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/models/Customer.php";
+require_once __DIR__ . "/customer.php";
 
 class RegisteredCustomer extends Customer 
 {

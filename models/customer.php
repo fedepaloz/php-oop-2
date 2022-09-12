@@ -6,7 +6,7 @@ class Customer
     
     
     
-    public function __construct($first_name,$last_name,$subscription)
+    public function __construct($first_name,$last_name)
     {
       $this->setFirstname($first_name);
       $this->setLastname($last_name);
