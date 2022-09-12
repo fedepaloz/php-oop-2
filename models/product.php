@@ -11,7 +11,7 @@ class Product
     {
         $this->setName($name);
         $this->setPrice($price);
-        $this ->setDescription($description);
+        $this->setDescription($description);
     }
 
 
@@ -50,6 +50,5 @@ class Product
     {
         $this->description = $description;
         return $this;
-
     }
 }
